@@ -18,7 +18,7 @@ public class Main {
         // 方式1
 //        JobClient jobClient = new RetryJobClient();
 //        jobClient.setNodeGroup("test_jobClient");
-//        jobClient.setClusterName("test_cluster");
+//        jobClient.setClusterName("hello_cluster");
 //        jobClient.setRegistryAddress("zookeeper://127.0.0.1:2181");
 //        jobClient.setJobCompletedHandler(new JobCompletedHandlerImpl());
 //        jobClient.addConfig("job.fail.store", "mapdb");

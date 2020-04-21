@@ -14,7 +14,7 @@ public class Main {
 //        jobTracker.setRegistryAddress("zookeeper://127.0.0.1:2181");
 ////        jobTracker.setRegistryAddress("redis://127.0.0.1:6379");
 //        jobTracker.setListenPort(35001); // 默认 35001
-//        jobTracker.setClusterName("test_cluster");
+//        jobTracker.setClusterName("hello_cluster");
 //
 ////        // 设置业务日志记录 mysql
 ////        jobTracker.addConfig("job.logger", "mysql");

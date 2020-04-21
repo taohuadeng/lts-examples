@@ -45,6 +45,7 @@
         <lts.version>1.7.2-SNAPSHOT</lts.version>
         <quartz.version>2.2.2</quartz.version>
         <javassist.version>3.20.0-GA</javassist.version>
+        <commons.poo2.version>2.6.2</commons.poo2.version>
     </properties>
 
     <packaging>pom</packaging>
@@ -195,6 +196,11 @@
                 <groupId>org.javassist</groupId>
                 <artifactId>javassist</artifactId>
                 <version>${javassist.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-pool2</artifactId>
+                <version>${commons.poo2.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

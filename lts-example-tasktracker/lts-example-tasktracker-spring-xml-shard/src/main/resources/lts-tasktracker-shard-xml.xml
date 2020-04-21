@@ -6,7 +6,7 @@
         http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context-4.0.xsd"
-        >
+>
 
     <bean id="springBean" class="com.github.ltsopensource.example.SpringBean"/>
 
@@ -20,9 +20,9 @@
         <!-- 如果指定为taskId, 取job.getTaskId() , 否则从 job.getParam("shardField") -->
         <property name="shardField" value="taskId"/>
         <property name="bizLoggerLevel" value="INFO"/>
-        <property name="clusterName" value="test_cluster"/>
-        <property name="registryAddress" value="zookeeper://127.0.0.1:2181"/>
-        <property name="nodeGroup" value="test_trade_TaskTracker"/>
+        <property name="clusterName" value="hello_cluster"/>
+        <property name="registryAddress" value="redis://127.0.0.1:6379"/>
+        <property name="nodeGroup" value="hello_trade_TaskTracker"/>
         <property name="workThreads" value="64"/>
         <property name="configs">
             <props>

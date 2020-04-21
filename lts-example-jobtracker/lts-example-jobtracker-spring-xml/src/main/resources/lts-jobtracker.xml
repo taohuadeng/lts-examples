@@ -9,8 +9,8 @@
         >
 
     <bean id="jobTracker" class="com.github.ltsopensource.spring.JobTrackerFactoryBean" init-method="start">
-        <property name="clusterName" value="test_cluster"/>
-        <property name="registryAddress" value="zookeeper://127.0.0.1:2181"/>
+        <property name="clusterName" value="hello_cluster"/>
+        <property name="registryAddress" value="redis://127.0.0.1:6379"/>
         <property name="listenPort" value="30005"/>
         <property name="configs">
             <props>

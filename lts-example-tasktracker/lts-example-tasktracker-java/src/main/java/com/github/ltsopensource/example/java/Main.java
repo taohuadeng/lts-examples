@@ -15,7 +15,7 @@ public class Main {
 //        taskTracker.setJobRunnerClass(TestJobRunner.class);
 //        taskTracker.setRegistryAddress("zookeeper://127.0.0.1:2181");
 //        taskTracker.setNodeGroup("test_trade_TaskTracker"); // 同一个TaskTracker集群这个名字相同
-//        taskTracker.setClusterName("test_cluster");
+//        taskTracker.setClusterName("hello_cluster");
 //        taskTracker.setWorkThreads(64);
 //        taskTracker.addConfig("job.fail.store", "mapdb");
 
